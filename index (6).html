@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    section {
+      background: white;
+      margin: 20px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #6a5acd;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 15px;
+      background: #f3f3f3;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>A piece of me </h1>
+    <p>Aspiring IT student</p>
+    <img src = "received_278310005000077.jpeg" alt = "My Photo"
+    class = "Profile Image" width="200" height="200">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a passionate student who loves learning new things, and creating meaningful experiences. I enjoy making random stuff that caught my attention.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+    <div class= "card">Projects</div>
+<section id="projects" class="section">
+  <h1>Projects</h1>
+  <div class="project-grid">
+    <div class="project">
+      <img src="" alt="Figma Portfolio UI Design" class="project-img">
+      <h2>Figma Portfolio UI</h2>
+      <p>Personal portfolio website design with modern UI/UX. Designed in Figma with interactive prototype.</p>
+      <button class="project-button" onclick="window.open('https://www.figma.com/proto/0oVy0WSlH9QCs1qBlzrxGs/Untitled?node-id=2-63&p=f&t=qu4rYPMhHwWEwNMf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1', '_blank')">View Prototype</button>
+    </div>
+    <div class="project">
+      <img src="" alt="Figma E-commerce UI Design" class="project-img">
+      <h2>Figma E-commerce UI</h2>
+      <p>Full UI/UX design for a modern online store with product pages and checkout flow.</p>
+      <button class="project-button" onclick="window.open('https://www.figma.com/proto/r6G1mR6Uwna43h8UtVvnwT/Untitled?node-id=7-18&p=f&t=nkdAd18BDzeJJ0AZ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A18', '_blank')">View Prototype</button>
+    </div>
+    <div class="project">
+      <h2>Canva Brand Portfolio</h2>
+      <p>Complete branding and portfolio presentation created in Canva.</p>
+      <button class="project-button" onclick="window.open('https://canva.link/many5hf4e797qgk', '_blank')">View in Canva</button>
+    </div>
+  </div>
+</section>
+      <div class="card">Activities</div>
+      <img src="received_1227847802734801.jpeg" alt = "My Photo"
+      class="Profile Image" width="100" height="100">
+      <img src= "received_4324313524485764.jpeg" alt = "My Photo"
+      class="Profile Image" width="100" height="100">
+      <img src = "received_682538581597675.jpeg" alt="My Photo"
+      class="Profile Image" width="100" height="100">
+      <a href="Rechelle An _Resume_394.pdf" download class="resume-button">
+    <i class="fa-solid fa-download"></i> Download Resume
+</a>
+      <div class="card">Video Tutorial</div>
+      <iframe src = "https://www.youtube.com/embed/YxRes0i0IG0" allowfullscreen ></iframe>
+      <p> Adobe Photoshop Tutorial </p>
+      <iframe src = "https://www.youtube.com/embed/BLhoWAALKt0" allowfullscreen ></iframe>
+      <p> Canva Tutorial </p>
+      <iframe src = "https://www.youtube.com/embed/jQ1sfKIl50E" allowfullscreen ></iframe>
+      <p> Figma Tutorial </p>
+      <div class="card">Certificates</div>
+      <img src= "IMG20260420173238.jpg" alt= "My Photo"
+      class="Profile Image" width="100" height="100">
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: rechelleancasilangan@gmail.com</p>
+    <p>Facebook:Rechelle An Abello Casilangan</p>
+    <p>Contact number:09271589441</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Rechelle An Casilangan | Portfolio</p>
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>
